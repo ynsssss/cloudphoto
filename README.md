@@ -7,3 +7,5 @@ To install you can:
   or just clone the repository and install the binary by 
   
   cp build/cloudphoto /usr/local/bin
+
+  use --help if you have any problem

@@ -24,7 +24,7 @@ func main() {
 		return
 	}
 
-	var cpconfFile = fmt.Sprintf("%s/.config/cloudphoto/cloudphotorc.ini", homeDir)
+	var cpconfFile = fmt.Sprintf("%s/.config/cloudphoto/cloudphotorc", homeDir)
 	
 	cpConf, err:= cpconfig.LoadConfigIni(cpconfFile)
 
